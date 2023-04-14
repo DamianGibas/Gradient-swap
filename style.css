@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(193, 200, 180);
+
+}
+
+    body{
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ball{
+        width: 250px; 
+        height: 250px;
+        color: rgb(238, 222, 1);
+        background: linear-gradient(90deg, rgba(238,222,63,1) 0%, rgba(202,208,47,0.2582282913165266) 100%);
+        border-radius: 50%;
+        box-shadow: 15px 5px 5px rgb(223, 214, 214);
+        cursor: pointer;
+        transition:4s ease-out;
+    }
+
+   .ball:hover {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        box-shadow: -15px 5px 5px rgb(223, 214, 214);
+      }
